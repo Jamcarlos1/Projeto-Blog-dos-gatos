@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, input {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    
+    padding: .4rem 19.6rem;
+}
+
+header {
+    width: 38.2rem;
+    padding: auto;
+}
+
+form img {
+    width: 43.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #202024;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #202024;
+}
+
+p {
+    font-size: 1.6rem;
+    color: #121214;
+}
+
+main {
+    width: 38.4rem;
+}
+
+.gallery img {
+    width: 15.1rem;
+}
+
+footer{
+    width: 100%;
+}
+
+
+footer p {
+    text-align: center;
+    padding: 1.6rem;
+    font-weight: 600;
+}
+
+@media (min-width: 720px) {
+    main {
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+
+        padding: .2rem .2rem;
+    }
+}
